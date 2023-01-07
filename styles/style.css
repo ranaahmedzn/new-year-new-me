@@ -177,3 +177,62 @@
     background-color: rgba(255, 255, 255, 0.842);
     cursor: pointer;
 }
+
+/*--footer design start here--*/
+.footer-container {
+    width: 100%;
+    height: 500px;
+    padding: 8% 12%;
+    background-color: #151414;
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+}
+.contact {
+    width: 450px;
+    height: 300px;
+}
+.contact h3 {
+    font-size: 45px;
+    line-height: 70px;
+}
+.contact p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.contact img {
+    width: 45px;
+    height: 45px;
+    margin-right: 7px;
+}
+.subscribe {
+    width: 350px;
+    height: auto;
+}
+.subscribe h3 {
+    font-size: 28px;
+}
+#email {
+    width: 80%;
+    border: 1px solid #F8F8F8;
+    border-radius: 7px;
+    padding: 18px;
+    background-color: transparent;
+    color: #F8F8F8;
+    font-size: 16px;
+    margin: 20px 0;
+}
+#subscribe-btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0494E8;
+    color: #F8F8F8;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+#subscribe-btn:hover {
+    background-color: #0494e8d2;
+    cursor: pointer;
+}
