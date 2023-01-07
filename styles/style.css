@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 /*--common paragraph for overall webpage--*/
 .para {
     padding: 20px 0 25px;
@@ -11,26 +12,30 @@
     line-height: 25px;
     font-family: 'Work Sans', sans-serif;
 }
+
 /*--header design start here--*/
 .header-container {
     width: 100%;
-    height: 100vh;
-    padding: 160px 220px;
+    height: 100%;
+    padding: 180px;
     background-image: url('../images/banner/banner1.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: end;
 }
+
 .header-info {
     text-align: right;
     width: 500px;
 }
+
 .header-info h1 {
     font-size: 55px;
     line-height: 60px;
     font-family: 'Work Sans', sans-serif;
 }
+
 .header-btn {
     font-size: 18px;
     font-weight: bold;
@@ -40,6 +45,7 @@
     padding: 15px 30px;
     border-radius: 7px;
 }
+
 .header-btn:hover {
     background-color: #0494e8d2;
     cursor: pointer;
@@ -50,38 +56,124 @@
 .failure-section {
     width: 100%;
     height: 100%;
-    padding: 10% 15% 10% 10%;
+    padding: 10% 15% 8% 10%;
 }
+
 .failure-section-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .failure-section-image {
     width: 50%;
     height: 100%;
 }
-.failure-section-image img{
+
+.failure-section-image img {
     width: 500px;
     height: auto;
 }
+
 .failure-section-info {
     width: 40%;
     height: 100%;
 }
+
 .failure-section-info h2 {
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
 }
+
 .failure-section-info ul {
     list-style: none;
 }
+
 .failure-section-info ul li {
     font-size: 16px;
     color: #444343;
     line-height: 25px;
     font-family: 'Work Sans', sans-serif;
 }
-.fa-solid {            /*--check icon--*/
-    color: #62ebb2;
+
+.fa-solid {
+    color: #62ebb2;  /*--check icon--*/
+}
+
+/*--my plan section start here--*/
+.my-plan-section {
+    padding: 0 12% 10% 12%;
+}
+
+.my-plan-section-container>h3 {
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-plans .plan {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.my-plans .plan img {
+    width: 90px;
+    height: 90px;
+}
+
+.my-plans .plan h4 {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.my-plans .plan p {
+    font-size: 16px;
+    color: #444343;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 40px;
+}
+
+.watch-image-container {
+    background-image: url('../images/watch.png');
+    width: 100%;
+    height: 280px;
+    border-radius: 7px;
+}
+
+.watch-image-info {
+    /* background-image: url('../images/gradient3.png'); */
+    background-image: linear-gradient(to right, #0970acf1, #0494e865, #0c98e91a);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    padding: 6% 50% 5% 6%;
+}
+
+.watch-image-info h3 {
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 40px;
+    color: white;
+}
+
+.call-now-btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: #0494E8;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+
+.call-now-btn:hover {
+    background-color: rgba(255, 255, 255, 0.842);
+    cursor: pointer;
 }
